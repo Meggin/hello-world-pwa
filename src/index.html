@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#008000"/>
     <title>My hello world page</title>
-    <link rel="stylesheet" type="text/css" href="hello-world.css">
+    <link rel="stylesheet" type="text/css" href="hello-world.css" media="all">
     <link rel="manifest" href="manifest.json">
+  </head>
+  <body>
+    <h1 class="vertical-container">Hello World</h1>
     <script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
     <script>
       // Initialize Firebase
@@ -21,9 +24,6 @@
       };
       firebase.initializeApp(config);
     </script>
-  </head>
-  <body>
-    <h1 class="vertical-container">Hello World</h1>
     <script>
       if('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/sw.js')
