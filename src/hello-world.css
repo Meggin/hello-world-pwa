@@ -3,12 +3,9 @@ body {
   color: orange;
 }
 
-h1 {
-	font-size: 250%;
-}
-
 .vertical-container {
   height: 300px;
+  font-size: 275%;
   display: -webkit-flex;
   display:         flex;
   -webkit-align-items: center;
