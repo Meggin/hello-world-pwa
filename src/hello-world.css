@@ -1,6 +1,10 @@
 body {
-  background-color: green;
-  color: white;
+  background-color: black;
+  color: orange;
+}
+
+h1 {
+	font-size: 250%;
 }
 
 .vertical-container {
