@@ -46,6 +46,10 @@
       .catch(function(err) {
         console.log('Unable to get permission to notify.', err);
       })
+      
+      messaging.onMessage(function onMessageFunc(payload) {
+        console.log('On message: ', payload);
+      });
     </script>
   </body>
 </html>
